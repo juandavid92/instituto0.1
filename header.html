@@ -1,0 +1,14 @@
+<header>
+	<h1>
+		Bienvenido Instituto ABC
+
+		<?php 
+	session_start();
+	if(!isset($_SESSION['usuario'])){
+		header("Location: index.php");
+	}
+	echo "<div class='var_sesion'><div class='circle'></div>" . $_SESSION['usuario'] . "</div>";
+	?>
+	</h1>
+	<a class="btn-cerrar" href="destroy_session.php">Cerrar Sesion</a>
+</header>

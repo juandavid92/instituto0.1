@@ -1,0 +1,59 @@
+.content-loggin{
+	width: 80%;
+	border: 1px solid gray;
+	border-radius: 5px;
+	margin: 20px auto;
+	min-height: 440px;
+	height: auto;
+}
+.content-loggin header{
+	width: 100%;
+	height: 100px;
+	padding: 10px;
+	background-color: #333;
+	text-align: center;
+	color: white;
+	font-family: arial;
+	font-weight: bold;
+}
+.content-loggin .form-horizontal{
+	margin: auto;
+	width: 50%; 
+	padding: 30px;
+	margin-top: 30px;
+}
+.content-loggin .form-curso .form-horizontal{
+	margin: auto;
+	width: 100%; 
+	padding: 0px;
+	margin-top: 0px;
+}
+.form-curso{
+	    display: none;
+    position: fixed;
+    top: 20%;
+    left: 30%;
+    width: 40%;
+    padding: 30px;
+    border: 1px solid gray;
+    clear: both;
+    margin: auto;
+    background-color: whitesmoke;
+    padding-bottom: 0px;
+}
+.btn-default{
+	background-color: #333;
+    height: 50px;
+    width: 48%;
+    color: white;
+    margin-left: 0px;
+    border-radius: 0px;
+    padding: 15px;
+    float: left;
+}
+.btn-default:hover{
+	opacity: 0.5;
+}
+.registro-show{
+	display: none;
+}
