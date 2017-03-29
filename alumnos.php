@@ -11,7 +11,7 @@
 	    	  include('APP/models/functions.php');
 	    ?>	  
 		<div class="content-datos">
-			<h4>Lista de Alumnos *</h4>
+			<h4>Lista de Alumnos</h4>
 			<?php
 	            $instancia = new Functions();
 	            $result = $instancia->ListaAlumnos();
